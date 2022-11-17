@@ -28,7 +28,7 @@ async def _(event):
 @ayiin_cmd(pattern="P(?: |$)(.*)")
 async def _(event):
     me = await event.client.get_me()
-    xx = await edit_or_reply(event, f"**iam adalah saya, saya adalah {me.first_name}**")
+    xx = await edit_or_reply(event, f"**ian adalah aku, aku adalah {me.first_name}**")
     sleep(2)
     await xx.edit("**Assalamualaikum...**")
 
